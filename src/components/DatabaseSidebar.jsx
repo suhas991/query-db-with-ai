@@ -259,12 +259,18 @@ export default function DatabaseSidebar() {
 
         .form-actions {
           display: flex;
+          flex-direction: column;
           gap: var(--space-sm);
           margin-top: var(--space-md);
         }
 
         .form-actions .btn {
-          flex: 1;
+          width: 100%;
+          justify-content: center;
+        }
+
+        .form-actions .btn-primary {
+          order: -1;
         }
 
         .error-message {

@@ -284,10 +284,10 @@ export async function generateSQLQuery(question, schema = null, dbType = 'postgr
         throw new Error('Gemini API key not configured. Please set VITE_GEMINI_API_KEY in your .env file');
     }
 
-    const { maxRetries = 2, temperature = 0.1, conversationHistory = [] } = options;
+    const { maxRetries = 2, temperature = 0.4, conversationHistory = [] } = options;
 
     const model = genAI.getGenerativeModel({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-2.5-flash',
         generationConfig: {
             temperature, // Very low temperature for consistent query generation
             maxOutputTokens: 1024,
@@ -428,7 +428,7 @@ export async function explainSQLQuery(query, dbType = 'postgres') {
     }
 
     const model = genAI.getGenerativeModel({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-2.5-flash-lite',
         generationConfig: {
             temperature: 0.3,
             maxOutputTokens: 512,
