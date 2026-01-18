@@ -16,6 +16,18 @@ A beautiful, AI-powered database query interface that lets you interact with you
 - 🎨 **Modern UI** - Professional design with glassmorphism effects
 - 📱 **Responsive** - Works on desktop, tablet, and mobile
 
+## Image References
+LOGIN PAGE
+<img width="1915" height="950" alt="image" src="https://github.com/user-attachments/assets/44d26568-b3ba-40cc-898d-455a6a04def9" />
+
+SETUP DB CONNECTION 
+<img width="1633" height="793" alt="image" src="https://github.com/user-attachments/assets/afa3928e-af56-435a-8555-79c79d01bc20" />
+
+SOME CHATBOT CONVERSATION
+<img width="1919" height="954" alt="image" src="https://github.com/user-attachments/assets/0c2462a3-5ab3-4de8-91e4-8fa4fe7255e8" />
+
+<img width="1919" height="462" alt="image" src="https://github.com/user-attachments/assets/aeb1f0d9-d862-456b-a29e-575a40eadd9f" />
+
 ## 🚀 Quick Start
 
 ### Prerequisites
